@@ -25,7 +25,7 @@ weight: 4
 
 - Go با **goroutine**‌ها (ریسمان‌های سبُک‌وزن) و **channel**هایی برای ارتباط امن بین آنها، همزمانی را در سطح زبان نهادینه کرده ([Faradars Blog](https://blog.faradars.org/why-should-you-learn-go/ "چرا باید زبان برنامه نویسی Go را بیاموزیم؟ — راهنمای جامع - مجله فرادرس")).
 - این ساختار، اجرای میلیون‌ها goroutine را با استفاده‌ی بسیار کمتر از حافظه امکان‌پذیر می‌سازد — برخلاف thread‌های سنگین جاوا — که مناسب سرویس‌های مقیاس‌پذیر و پرکار است ([uptech.team](https://www.uptech.team/blog/why-use-golang-for-your-project "Best practices: Why use Golang for your project - UPTech Team"), [Sariasan](https://sariasan.com/featured/go-programming-language/ "زبان برنامه نویسی go (معرفی، کاربردها، معایب و مزایا) - سریع آسان")).
-- فلسفه Go در همزمانی این است: «با ارتباط بین حافظه به اشتراک‌گذاری انجام می‌شود، نه با اشتراک‌گذاری حافظه» ([Sariasan](https://sariasan.com/featured/go-programming-language/ "زبان برنامه نویسی go (معرفی، کاربردها، معایب و مزایا) - سریع آسان")).
+- فلسفه Go در همزمانی این است: "با اشتراک‌گذاری حافظه ارتباط برقرار نکنید؛ در عوض، حافظه را با برقراری ارتباط به اشتراک بگذارید." ([Sariasan](https://sariasan.com/featured/go-programming-language/ "زبان برنامه نویسی go (معرفی، کاربردها، معایب و مزایا) - سریع آسان")).
 
 ## 🧠 ۴. **مدیریت حافظه خودکار (Garbage Collection)**
 
